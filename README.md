@@ -1,6 +1,6 @@
 # tercera-entrega-final
 
---Se añaden titulo, icono, descripcion y kaywords a todos los archivos HTML.
+--Se añaden titulo, icono, descripcion y keywords a todos los archivos HTML.
 
 --Se un maps para los iconos de redes de todos los archivos HTML.
 
