@@ -1,0 +1,1002 @@
+/*--------------------AJUSTE DE RESOLUCION PARA MOBILE------------------*/
+@media screen and (min-width: 320px) {
+  .enlaces {
+    text-decoration: none; }
+  .body-index {
+    width: 100vw;
+    background-image: url("../media/tienda.jpg");
+    background-size: center; }
+  .body-calzados {
+    background-image: url("../media/portada-calzados.jpg");
+    background-size: cover; }
+  .body-Abrigos {
+    background-image: url("../media/portada-abrigos.jpg");
+    background-size: cover; }
+  .body-jeans {
+    background-image: url("../media/portada-pantalones.jpg");
+    background-size: cover; }
+  .body-remeras {
+    background-image: url("../media/led.jpg");
+    background-size: cover; }
+  .header-paginas {
+    width: 100vw;
+    display: grid;
+    grid-template-areas: "logo" "encabezado" "nav";
+    grid-gap: 3px; } }
+  @media screen and (min-width: 320px) and (min-width: 320px) {
+    .header-paginas .encabezado {
+      width: 100vw;
+      grid-area: encabezado;
+      display: flex;
+      justify-content: center;
+      color: coral;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: 300;
+      font-style: unset;
+      text-shadow: 5px 5px 4px burlywood;
+      padding-bottom: 15px; }
+    .header-paginas .logo {
+      width: 100vw;
+      grid-area: logo;
+      display: flex;
+      justify-content: center; }
+      .header-paginas .logo img {
+        width: 300px;
+        height: 100px; } }
+  @media screen and (min-width: 320px) and (min-width: 720px) {
+    .header-paginas .encabezado {
+      width: 100vw;
+      grid-area: encabezado;
+      display: flex;
+      justify-content: center;
+      color: coral;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: 300;
+      font-style: unset;
+      text-shadow: 5px 5px 4px burlywood;
+      padding-bottom: 15px; }
+    .header-paginas .logo {
+      width: 100vw;
+      grid-area: logo;
+      display: flex;
+      justify-content: center; }
+      .header-paginas .logo img {
+        width: 700px;
+        height: 200px; } }
+  @media screen and (min-width: 320px) and (min-width: 1024px) {
+    .header-paginas .encabezado {
+      width: 100vw;
+      grid-area: encabezado;
+      display: flex;
+      justify-content: center;
+      color: coral;
+      font-family: 'Times New Roman', Times, serif;
+      font-style: unset;
+      text-shadow: 5px 5px 4px burlywood; }
+    .header-paginas .logo {
+      width: 100vw;
+      padding: 0;
+      margin: 0;
+      grid-area: logo;
+      display: flex;
+      justify-content: center; }
+      .header-paginas .logo img {
+        width: 1020px;
+        height: 200px; } }
+
+@media screen and (min-width: 320px) {
+    .header-paginas .nav-index {
+      width: 100vw;
+      grid-area: nav;
+      border-radius: 15px; }
+      .header-paginas .nav-index .tam-img {
+        width: 40px;
+        height: 40px; }
+  /*======SECTOR MAIN======*/
+  main .col {
+    height: 450px;
+    border-radius: 15px; }
+    main .col .formato-imagen {
+      width: 300PX;
+      height: 300PX;
+      border-radius: 15px; }
+  /* ----main index----*/
+  .body-index main .col {
+    height: 350px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .body-index main .col .texto-index {
+      color: aliceblue;
+      position: absolute; }
+  /* ----main calzados----*/
+  .body-calzados main .col .seccion-calzados {
+    font-family: 'Courier New', Courier, monospace;
+    color: maroon;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; }
+    .body-calzados main .col .seccion-calzados h2 {
+      font-size: 40px;
+      font-weight: 300; }
+  .body-calzados main .col .texto-calzados {
+    color: aliceblue;
+    position: absolute; }
+  /* ----main calzados----*/
+  .body-Abrigos main .col .seccion-abrigos {
+    font-family: 'Courier New', Courier, monospace;
+    color: #cbd6e0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; }
+    .body-Abrigos main .col .seccion-abrigos h2 {
+      font-size: 40px;
+      font-weight: 300; }
+  .body-Abrigos main .col .texto-abrigos {
+    color: aliceblue;
+    position: absolute; }
+  /* ----main pantalones----*/
+  .body-jeans main .col .seccion-jeans {
+    font-family: 'Courier New', Courier, monospace;
+    color: #cfd5a1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; }
+    .body-jeans main .col .seccion-jeans h2 {
+      font-size: 40px;
+      font-weight: 300; }
+  .body-jeans main .col .texto-pantalones {
+    color: burlywood;
+    position: absolute; }
+  /* ----main remeras----*/
+  .body-remeras main .col .seccion-remeras {
+    font-family: 'Courier New', Courier, monospace;
+    color: #e93434;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; }
+    .body-remeras main .col .seccion-remeras h2 {
+      font-size: 40px;
+      font-weight: 300; }
+  .body-remeras main .col .texto-remeras {
+    color: whitesmoke;
+    position: absolute; }
+  /*================ SECCION FOOTER ================*/
+  footer {
+    display: flex;
+    justify-content: center; }
+    footer .pie-de-pagina {
+      display: flex;
+      flex-direction: row;
+      list-style: none; }
+      footer .pie-de-pagina li h3 {
+        font-size: 15px;
+        position: relative;
+        top: 15px; }
+      footer .pie-de-pagina .medios-de-contacto-facebook {
+        background-color: #0026a2;
+        width: 30px;
+        height: 40px;
+        margin-left: 10px; }
+      footer .pie-de-pagina .medios-de-contacto-instagram {
+        background-color: #c000f6;
+        width: 30px;
+        height: 40px;
+        margin-left: 10px; }
+      footer .pie-de-pagina .medios-de-contacto-gmail {
+        background-color: #ce3a3af6;
+        width: 30px;
+        height: 40px;
+        margin-left: 10px; }
+  /*------SECCION CORREO------*/
+  .body-correo {
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../media/mailbox-g523efffa6_1920.jpg); }
+    .body-correo .container {
+      width: 310px;
+      height: 530px;
+      margin-top: 100px;
+      background-image: radial-gradient(circle at 76.81% 107.48%, #9f4ff4 0, #7944f3 25%, #3c3cf2 50%, #0037f1 75%, #0034ef 100%);
+      border-radius: 15px;
+      font-size: 18px;
+      padding: 30px;
+      box-shadow: 7px 13px 37px #000; }
+      .body-correo .container .row .titulo-consulta {
+        display: flex;
+        justify-content: center;
+        padding: 5px 0px;
+        font-size: 40px;
+        color: #9cf1ff; } }
+    @media screen and (min-width: 320px) and (min-width: 320px) {
+      .body-correo .container .row .col .nombre, .body-correo .container .row .col .apellido, .body-correo .container .row .col .correo {
+        font-size: 19px;
+        border-color: #9df2f2;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #0037f1;
+        border-radius: 10px; }
+      .body-correo .container .row .col .mensaje {
+        width: 100%;
+        font-size: 21px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 10px;
+        border-color: #9df2f2;
+        background-color: #0037f1;
+        height: 250px; }
+      .body-correo .container .row .col .botones-correo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; } }
+    @media screen and (min-width: 320px) and (min-width: 720px) {
+      .body-correo .container .row .col .nombre, .body-correo .container .row .col .apellido, .body-correo .container .row .col .correo {
+        width: 25vw;
+        font-size: 20px;
+        border-color: #9df2f2;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #0037f1;
+        border-radius: 10px; }
+      .body-correo .container .row .col .apellido {
+        width: 25vw;
+        font-size: 20px;
+        border-color: #9df2f2;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #0037f1;
+        border-radius: 10px; }
+      .body-correo .container .row .col .correo {
+        width: 50.5vw;
+        font-size: 20px;
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-color: #9df2f2;
+        background-color: #0037f1;
+        box-sizing: border-box; }
+      .body-correo .container .row .col .mensaje {
+        width: 50vw;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 10px;
+        border-color: #9df2f2;
+        background-color: #0037f1;
+        height: 250px; } }
+    @media screen and (min-width: 320px) and (min-width: 1024px) {
+      .body-correo .container .row .col .nombre, .body-correo .container .row .col .apellido, .body-correo .container .row .col .correo {
+        width: 100%;
+        font-size: 20px;
+        border-color: #9df2f2;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #0037f1;
+        border-radius: 10px; }
+      .body-correo .container .row .col .apellido {
+        width: 100%;
+        font-size: 20px;
+        border-color: #9df2f2;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #0037f1;
+        border-radius: 10px; }
+      .body-correo .container .row .col .correo {
+        width: 100%;
+        font-size: 20px;
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-color: #9df2f2;
+        background-color: #0037f1;
+        box-sizing: border-box; }
+      .body-correo .container .row .col .mensaje {
+        width: 100%;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 10px;
+        border-color: #9df2f2;
+        background-color: #0037f1;
+        height: 250px; } }
+
+@media screen and (min-width: 320px) {
+      .body-correo .container .row .botones-correo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; } }
+
+/*--------------------AJUSTE DE RESOLUCION PARA TABLET------------------*/
+@media screen and (min-width: 720px) {
+  .body-index {
+    width: 100vw;
+    background-image: url("../media/tienda.jpg");
+    background-size: center; }
+  .body-calzados {
+    background-image: url("../media/portada-calzados.jpg");
+    background-size: cover; }
+  .body-Abrigos {
+    background-image: url("../media/portada-abrigos.jpg");
+    background-size: cover; }
+  .body-jeans {
+    background-image: url("../media/portada-pantalones.jpg");
+    background-size: cover; }
+  .body-remeras {
+    background-image: url("../media/led.jpg");
+    background-size: cover; }
+  .header-paginas {
+    width: 100vw;
+    display: grid;
+    grid-template-areas: "logo" "encabezado" "nav";
+    grid-gap: 3px; } }
+  @media screen and (min-width: 720px) and (min-width: 320px) {
+    .header-paginas .encabezado {
+      width: 100vw;
+      grid-area: encabezado;
+      display: flex;
+      justify-content: center;
+      color: coral;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: 300;
+      font-style: unset;
+      text-shadow: 5px 5px 4px burlywood;
+      padding-bottom: 15px; }
+    .header-paginas .logo {
+      width: 100vw;
+      grid-area: logo;
+      display: flex;
+      justify-content: center; }
+      .header-paginas .logo img {
+        width: 300px;
+        height: 100px; } }
+  @media screen and (min-width: 720px) and (min-width: 720px) {
+    .header-paginas .encabezado {
+      width: 100vw;
+      grid-area: encabezado;
+      display: flex;
+      justify-content: center;
+      color: coral;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: 300;
+      font-style: unset;
+      text-shadow: 5px 5px 4px burlywood;
+      padding-bottom: 15px; }
+    .header-paginas .logo {
+      width: 100vw;
+      grid-area: logo;
+      display: flex;
+      justify-content: center; }
+      .header-paginas .logo img {
+        width: 700px;
+        height: 200px; } }
+  @media screen and (min-width: 720px) and (min-width: 1024px) {
+    .header-paginas .encabezado {
+      width: 100vw;
+      grid-area: encabezado;
+      display: flex;
+      justify-content: center;
+      color: coral;
+      font-family: 'Times New Roman', Times, serif;
+      font-style: unset;
+      text-shadow: 5px 5px 4px burlywood; }
+    .header-paginas .logo {
+      width: 100vw;
+      padding: 0;
+      margin: 0;
+      grid-area: logo;
+      display: flex;
+      justify-content: center; }
+      .header-paginas .logo img {
+        width: 1020px;
+        height: 200px; } }
+
+@media screen and (min-width: 720px) {
+    .header-paginas .nav-index {
+      width: 98vw;
+      grid-area: nav;
+      border-radius: 15px; }
+      .header-paginas .nav-index .tam-img {
+        width: 40px;
+        height: 40px; }
+  /*======SECTOR MAIN======*/
+  main .col {
+    height: 450px;
+    border-radius: 15px;
+    cursor: pointer; }
+    main .col .formato-imagen {
+      width: 400PX;
+      height: 400PX;
+      border-radius: 15px; }
+  /* ----main index----*/
+  .body-index main .col {
+    height: 450px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .body-index main .col .texto-index {
+      color: aliceblue;
+      position: absolute; }
+  /* ----main calzados----*/
+  .body-calzados main .col .seccion-calzados {
+    font-family: 'Courier New', Courier, monospace;
+    color: maroon;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; }
+    .body-calzados main .col .seccion-calzados h2 {
+      font-size: 40px;
+      font-weight: 400; }
+  .body-calzados main .col .texto-calzados {
+    color: aliceblue;
+    position: absolute; }
+  /* ----main calzados----*/
+  .body-Abrigos main .col .seccion-abrigos {
+    font-family: 'Courier New', Courier, monospace;
+    color: #cbd6e0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; }
+    .body-Abrigos main .col .seccion-abrigos h2 {
+      font-size: 40px;
+      font-weight: 400; }
+  .body-Abrigos main .col .texto-abrigos {
+    color: aliceblue;
+    position: absolute; }
+  /* ----main pantalones----*/
+  .body-jeans main .col .seccion-jeans {
+    font-family: 'Courier New', Courier, monospace;
+    color: #cfd5a1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; }
+    .body-jeans main .col .seccion-jeans h2 {
+      font-size: 40px;
+      font-weight: 400; }
+  .body-jeans main .col .texto-pantalones {
+    color: burlywood;
+    position: absolute; }
+  /* ----main remeras----*/
+  .body-remeras main .col .seccion-remeras {
+    font-family: 'Courier New', Courier, monospace;
+    color: #e93434;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; }
+    .body-remeras main .col .seccion-remeras h2 {
+      font-size: 40px;
+      font-weight: 400; }
+  .body-remeras main .col .texto-remeras {
+    color: whitesmoke;
+    position: absolute; }
+  /*================ SECCION FOOTER ================*/
+  footer {
+    display: flex;
+    justify-content: center; }
+    footer .pie-de-pagina {
+      width: 100vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      list-style: none; }
+      footer .pie-de-pagina li h3 {
+        font-size: 15px;
+        position: relative;
+        top: 15px; }
+      footer .pie-de-pagina .medios-de-contacto-facebook {
+        background-color: #0026a2;
+        width: 38px;
+        height: 50px;
+        margin-left: 10px; }
+      footer .pie-de-pagina .medios-de-contacto-instagram {
+        background-color: #c000f6;
+        width: 38px;
+        height: 50px;
+        margin-left: 10px; }
+      footer .pie-de-pagina .medios-de-contacto-gmail {
+        background-color: #ce3a3af6;
+        width: 38px;
+        height: 50px;
+        margin-left: 10px; }
+  /*------SECCION CORREO------*/
+  .body-correo {
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../media/mailbox-g523efffa6_1920.jpg); }
+    .body-correo .container {
+      width: 600px;
+      height: 500px;
+      margin-top: 100px;
+      background-image: radial-gradient(circle at 76.81% 107.48%, #9f4ff4 0, #7944f3 25%, #3c3cf2 50%, #0037f1 75%, #0034ef 100%);
+      border-radius: 15px;
+      font-size: 18px;
+      padding: 30px;
+      box-shadow: 7px 13px 37px #000; }
+      .body-correo .container .row .titulo-consulta {
+        display: flex;
+        justify-content: center;
+        padding: 5px 0px;
+        font-size: 40px;
+        color: #9cf1ff; } }
+    @media screen and (min-width: 720px) and (min-width: 320px) {
+      .body-correo .container .row .col .nombre, .body-correo .container .row .col .apellido, .body-correo .container .row .col .correo {
+        font-size: 19px;
+        border-color: #9df2f2;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #0037f1;
+        border-radius: 10px; }
+      .body-correo .container .row .col .mensaje {
+        width: 100%;
+        font-size: 21px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 10px;
+        border-color: #9df2f2;
+        background-color: #0037f1;
+        height: 250px; }
+      .body-correo .container .row .col .botones-correo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; } }
+    @media screen and (min-width: 720px) and (min-width: 720px) {
+      .body-correo .container .row .col .nombre, .body-correo .container .row .col .apellido, .body-correo .container .row .col .correo {
+        width: 25vw;
+        font-size: 20px;
+        border-color: #9df2f2;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #0037f1;
+        border-radius: 10px; }
+      .body-correo .container .row .col .apellido {
+        width: 25vw;
+        font-size: 20px;
+        border-color: #9df2f2;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #0037f1;
+        border-radius: 10px; }
+      .body-correo .container .row .col .correo {
+        width: 50.5vw;
+        font-size: 20px;
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-color: #9df2f2;
+        background-color: #0037f1;
+        box-sizing: border-box; }
+      .body-correo .container .row .col .mensaje {
+        width: 50vw;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 10px;
+        border-color: #9df2f2;
+        background-color: #0037f1;
+        height: 250px; } }
+    @media screen and (min-width: 720px) and (min-width: 1024px) {
+      .body-correo .container .row .col .nombre, .body-correo .container .row .col .apellido, .body-correo .container .row .col .correo {
+        width: 100%;
+        font-size: 20px;
+        border-color: #9df2f2;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #0037f1;
+        border-radius: 10px; }
+      .body-correo .container .row .col .apellido {
+        width: 100%;
+        font-size: 20px;
+        border-color: #9df2f2;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #0037f1;
+        border-radius: 10px; }
+      .body-correo .container .row .col .correo {
+        width: 100%;
+        font-size: 20px;
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-color: #9df2f2;
+        background-color: #0037f1;
+        box-sizing: border-box; }
+      .body-correo .container .row .col .mensaje {
+        width: 100%;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 10px;
+        border-color: #9df2f2;
+        background-color: #0037f1;
+        height: 250px; } }
+
+@media screen and (min-width: 720px) {
+      .body-correo .container .row .botones-correo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; } }
+
+/*--------------------AJUSTE DE RESOLUCION PARA PC/LAPTOP------------------*/
+@media screen and (min-width: 1024px) {
+  .body-index {
+    width: 100vw;
+    background-image: url("../media/tienda.jpg");
+    background-size: center; }
+  .body-calzados {
+    background-image: url("../media/portada-calzados.jpg");
+    background-size: cover; }
+  .body-Abrigos {
+    background-image: url("../media/portada-abrigos.jpg");
+    background-size: cover; }
+  .body-jeans {
+    background-image: url("../media/portada-pantalones.jpg");
+    background-size: cover; }
+  .body-remeras {
+    background-image: url("../media/led.jpg");
+    background-size: cover; }
+  .header-paginas {
+    width: 100vw;
+    display: grid;
+    grid-template-areas: "logo" "encabezado" "nav";
+    grid-gap: 3px; } }
+  @media screen and (min-width: 1024px) and (min-width: 320px) {
+    .header-paginas .encabezado {
+      width: 100vw;
+      grid-area: encabezado;
+      display: flex;
+      justify-content: center;
+      color: coral;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: 300;
+      font-style: unset;
+      text-shadow: 5px 5px 4px burlywood;
+      padding-bottom: 15px; }
+    .header-paginas .logo {
+      width: 100vw;
+      grid-area: logo;
+      display: flex;
+      justify-content: center; }
+      .header-paginas .logo img {
+        width: 300px;
+        height: 100px; } }
+  @media screen and (min-width: 1024px) and (min-width: 720px) {
+    .header-paginas .encabezado {
+      width: 100vw;
+      grid-area: encabezado;
+      display: flex;
+      justify-content: center;
+      color: coral;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: 300;
+      font-style: unset;
+      text-shadow: 5px 5px 4px burlywood;
+      padding-bottom: 15px; }
+    .header-paginas .logo {
+      width: 100vw;
+      grid-area: logo;
+      display: flex;
+      justify-content: center; }
+      .header-paginas .logo img {
+        width: 700px;
+        height: 200px; } }
+  @media screen and (min-width: 1024px) and (min-width: 1024px) {
+    .header-paginas .encabezado {
+      width: 100vw;
+      grid-area: encabezado;
+      display: flex;
+      justify-content: center;
+      color: coral;
+      font-family: 'Times New Roman', Times, serif;
+      font-style: unset;
+      text-shadow: 5px 5px 4px burlywood; }
+    .header-paginas .logo {
+      width: 100vw;
+      padding: 0;
+      margin: 0;
+      grid-area: logo;
+      display: flex;
+      justify-content: center; }
+      .header-paginas .logo img {
+        width: 1020px;
+        height: 200px; } }
+
+@media screen and (min-width: 1024px) {
+    .header-paginas .nav-index {
+      width: 98vw;
+      grid-area: nav;
+      border-radius: 15px; }
+      .header-paginas .nav-index .tam-img {
+        width: 40px;
+        height: 40px; }
+  /*======SECTOR MAIN======*/
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; }
+    main div {
+      height: 450px;
+      border-radius: 15px;
+      cursor: pointer; }
+    main .col .formato-imagen {
+      width: 100%;
+      height: 100%;
+      transition: all 500ms ease-out;
+      border-radius: 15px; }
+  /* ----main index----*/
+  .body-index main .col .texto-index {
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    background: rgba(126, 214, 151, 0.5);
+    box-shadow: 6px 5px 5px rgba(227, 167, 167, 0.4);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute; }
+    .body-index main .col .texto-index h2 {
+      color: azure;
+      font-size: 40px;
+      display: flex;
+      align-items: center; }
+  .body-index main .col:hover > .texto-index {
+    opacity: 1;
+    visibility: visible; }
+  /* ----main calzados----*/
+  .body-calzados main .row .seccion-calzados {
+    font-family: 'Courier New', Courier, monospace;
+    color: maroon;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; }
+    .body-calzados main .row .seccion-calzados h2 {
+      font-size: 40px;
+      font-weight: 400; }
+  .body-calzados main .col .texto-calzados {
+    display: flex;
+    justify-content: center;
+    width: 638px;
+    background: rgba(239, 97, 97, 0.5);
+    box-shadow: 6px 5px 5px rgba(98, 112, 241, 0.4);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    top: 600px; }
+    .body-calzados main .col .texto-calzados h2 {
+      color: azure;
+      font-size: 40px;
+      display: flex;
+      align-items: center; }
+  .body-calzados main .col:hover > .texto-calzados {
+    opacity: 1;
+    visibility: visible; }
+  /* ----main abrigos----*/
+  .body-Abrigos main .row .seccion-abrigos {
+    font-family: 'Courier New', Courier, monospace;
+    color: #cbd6e0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; }
+    .body-Abrigos main .row .seccion-abrigos h2 {
+      font-size: 40px;
+      font-weight: 400; }
+  .body-Abrigos main .col .texto-abrigos {
+    display: flex;
+    justify-content: center;
+    width: 415px;
+    background: rgba(91, 229, 225, 0.5);
+    box-shadow: 6px 5px 5px rgba(238, 231, 99, 0.4);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+    position: absolute;
+    top: 600px; }
+    .body-Abrigos main .col .texto-abrigos h2 {
+      color: azure;
+      font-size: 40px;
+      display: flex;
+      align-items: center; }
+  .body-Abrigos main .col:hover > .texto-abrigos {
+    opacity: 1;
+    visibility: visible; }
+  /* ----main pantalones----*/
+  .body-jeans main .row .seccion-jeans {
+    font-family: 'Courier New', Courier, monospace;
+    color: #cfd5a1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; }
+    .body-jeans main .row .seccion-jeans h2 {
+      font-size: 40px;
+      font-weight: 400; }
+  .body-jeans main .col .texto-pantalones {
+    display: flex;
+    justify-content: center;
+    width: 415px;
+    background: rgba(211, 232, 55, 0.5);
+    box-shadow: 6px 5px 5px rgba(191, 64, 128, 0.4);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+    position: absolute;
+    top: 600px; }
+    .body-jeans main .col .texto-pantalones h2 {
+      color: azure;
+      font-size: 40px;
+      display: flex;
+      align-items: center; }
+  .body-jeans main .col:hover > .texto-pantalones {
+    opacity: 1;
+    visibility: visible; }
+  /* ----main remeras----*/
+  .body-remeras main .row .seccion-remeras {
+    font-family: 'Courier New', Courier, monospace;
+    color: #e93434;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; }
+    .body-remeras main .row .seccion-remeras h2 {
+      font-size: 40px;
+      font-weight: 400; }
+  .body-remeras main .col .texto-remeras {
+    display: flex;
+    justify-content: center;
+    width: 638px;
+    background: rgba(211, 232, 55, 0.5);
+    box-shadow: 6px 5px 5px rgba(191, 64, 128, 0.4);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+    position: absolute;
+    top: 600px; }
+    .body-remeras main .col .texto-remeras h2 {
+      color: azure;
+      font-size: 40px;
+      display: flex;
+      align-items: center; }
+  .body-remeras main .col:hover > .texto-remeras {
+    opacity: 1;
+    visibility: visible; }
+  /*================ SECCION FOOTER ================*/
+  footer .pie-de-pagina {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+    list-style: none; }
+    footer .pie-de-pagina li h3 {
+      font-size: 30px;
+      color: white;
+      position: relative;
+      top: 15px; }
+    footer .pie-de-pagina .medios-de-contacto-facebook {
+      position: relative;
+      top: 15px;
+      background-color: #0026a2;
+      width: 40px;
+      height: 50px;
+      margin-left: 10px;
+      transition: all .4s ease-in-out; }
+      footer .pie-de-pagina .medios-de-contacto-facebook:hover {
+        transform: scale(1.3); }
+    footer .pie-de-pagina .medios-de-contacto-instagram {
+      position: relative;
+      top: 15px;
+      background-color: #c000f6;
+      width: 40px;
+      height: 50px;
+      margin-left: 10px;
+      transition: all .4s ease-in-out; }
+      footer .pie-de-pagina .medios-de-contacto-instagram:hover {
+        transform: scale(1.3); }
+    footer .pie-de-pagina .medios-de-contacto-gmail {
+      position: relative;
+      top: 15px;
+      background-color: #ce3a3af6;
+      width: 40px;
+      height: 50px;
+      margin-left: 10px;
+      transition: all .4s ease-in-out; }
+      footer .pie-de-pagina .medios-de-contacto-gmail:hover {
+        transform: scale(1.3); }
+  /*------SECCION CORREO------*/
+  .body-correo {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../media/mailbox-g523efffa6_1920.jpg"); }
+    .body-correo .container {
+      width: 550px;
+      height: 480px;
+      margin-top: 250px;
+      background-image: radial-gradient(circle at 76.81% 107.48%, #9f4ff4 0, #7944f3 25%, #3c3cf2 50%, #0037f1 75%, #0034ef 100%);
+      border-radius: 15px;
+      font-size: 18px;
+      padding: 30px;
+      box-shadow: 7px 13px 37px #000; }
+      .body-correo .container .row .titulo-consulta {
+        display: flex;
+        justify-content: center;
+        padding: 5px 0px;
+        font-size: 40px;
+        color: #9cf1ff; } }
+    @media screen and (min-width: 1024px) and (min-width: 320px) {
+      .body-correo .container .row .col .nombre, .body-correo .container .row .col .apellido, .body-correo .container .row .col .correo {
+        font-size: 19px;
+        border-color: #9df2f2;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #0037f1;
+        border-radius: 10px; }
+      .body-correo .container .row .col .mensaje {
+        width: 100%;
+        font-size: 21px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 10px;
+        border-color: #9df2f2;
+        background-color: #0037f1;
+        height: 250px; }
+      .body-correo .container .row .col .botones-correo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; } }
+    @media screen and (min-width: 1024px) and (min-width: 720px) {
+      .body-correo .container .row .col .nombre, .body-correo .container .row .col .apellido, .body-correo .container .row .col .correo {
+        width: 25vw;
+        font-size: 20px;
+        border-color: #9df2f2;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #0037f1;
+        border-radius: 10px; }
+      .body-correo .container .row .col .apellido {
+        width: 25vw;
+        font-size: 20px;
+        border-color: #9df2f2;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #0037f1;
+        border-radius: 10px; }
+      .body-correo .container .row .col .correo {
+        width: 50.5vw;
+        font-size: 20px;
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-color: #9df2f2;
+        background-color: #0037f1;
+        box-sizing: border-box; }
+      .body-correo .container .row .col .mensaje {
+        width: 50vw;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 10px;
+        border-color: #9df2f2;
+        background-color: #0037f1;
+        height: 250px; } }
+    @media screen and (min-width: 1024px) and (min-width: 1024px) {
+      .body-correo .container .row .col .nombre, .body-correo .container .row .col .apellido, .body-correo .container .row .col .correo {
+        width: 100%;
+        font-size: 20px;
+        border-color: #9df2f2;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #0037f1;
+        border-radius: 10px; }
+      .body-correo .container .row .col .apellido {
+        width: 100%;
+        font-size: 20px;
+        border-color: #9df2f2;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #0037f1;
+        border-radius: 10px; }
+      .body-correo .container .row .col .correo {
+        width: 100%;
+        font-size: 20px;
+        border-radius: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-color: #9df2f2;
+        background-color: #0037f1;
+        box-sizing: border-box; }
+      .body-correo .container .row .col .mensaje {
+        width: 100%;
+        font-size: 22px;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 10px;
+        border-color: #9df2f2;
+        background-color: #0037f1;
+        height: 250px; } }
+
+@media screen and (min-width: 1024px) {
+      .body-correo .container .row .botones-correo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; } }
