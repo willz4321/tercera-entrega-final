@@ -8,3 +8,5 @@
 hereden los datos de la clase nombre.
 
 --Se usar Import para utilizar los archivos sass "_datos-correo" y "_header-encabezado".
+
+--Se usan variables y operadores en ../sass/header-encabezado. 
